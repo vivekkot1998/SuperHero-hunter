@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* text-align: center; */
+    padding: 20px;
+    display: flex;
+  }
+
+  .div-container{
+    /* border: 1px solid red; */
+    width: 30%;
+  }
+  
+  .search-bar {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+  }
+  
+  #search-bar-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .suggestions {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .suggestions div {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .suggestions div:hover {
+    background-color: #f0f0f0;
+  }
+
+  .favorite-btn{
+
+  }
+
+  #favorites-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #favorites-list li {
+    width: 30%;
+    padding: 5px;
+    background-color: #d0e6f7;
+    margin: 5px 0;
+  }
+
+  .super-hero-details{
+    /* border: 1px solid red; */
+    width: 70%;
+  }

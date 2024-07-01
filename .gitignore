@@ -1,0 +1,9 @@
+# Ignore JavaScript file with hash generation
+hash-generator.js
+
+# Ignore environment configuration file
+config.js
+
+node_modules
+package-lock.json
+package.json
