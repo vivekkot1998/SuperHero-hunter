@@ -2,7 +2,7 @@
 hash-generator.js
 
 # Ignore environment configuration file
-config.js
+# config.js
 
 node_modules
 package-lock.json
